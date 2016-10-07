@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"  xmlns:fb="http://ogp.me/ns/fb#" class="w-mod-js w-mod-no-touch w-mod-video w-mod-no-ios" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+        <meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE"/>
+        <link type="image/png" href="/assets/css/images/logo.png" rel="icon">
+		<title>Канал 3 - телевизия, гледай на живо, новини от България и света</title>
+				    		                                <meta name="keywords" content='Канал 3, телевизия, на живо, предавания, парламент, народно събрание, събития, интервюта, коментари, новини, спорт, футболно първенство, лайфстайл, хороскоп, свят' >
+        <meta name="description" content='Канал 3 винаги е първа на най-горещите точки и събития с актуална информация и коментари. Само по Канал 3 гледайте Парламента на живо.' >
+        <meta property="og:title" content="Канал 3 - телевизия, гледай на живо, новини от България и света" />
+        <meta property="og:type" content="page" />
+
+        <meta property="og:url" content="http://kanal3.bg/assets/css/css_min/font-awesome/fonts/fontawesome-webfont.ttf?v=4.3.0" />
+                <meta property="og:description" content="Канал 3 винаги е първа на най-горещите точки и събития с актуална информация и коментари. Само по Канал 3 гледайте Парламента на живо." />
+
+                    		<link media="all" type="text/css" rel="stylesheet" href="http://kanal3.bg/assets/admin/bootstrap/bootstrap.css">
+
+        	        		<link media="all" type="text/css" rel="stylesheet" href="http://kanal3.bg/assets/admin/jquery-ui/jquery-ui.min.css">
+
+        	        		<link media="all" type="text/css" rel="stylesheet" href="http://kanal3.bg/assets/css/style.css">
+
+        	        		<link media="all" type="text/css" rel="stylesheet" href="http://kanal3.bg/assets/css/layout.css">
+
+        	        		<link media="all" type="text/css" rel="stylesheet" href="http://kanal3.bg/assets/css/font-awesome/css/font-awesome.min.css">
+
+        	        		<link media="all" type="text/css" rel="stylesheet" href="http://kanal3.bg/assets/css/zodiak/style.css">
+
+        	        		<link media="all" type="text/css" rel="stylesheet" href="http://kanal3.bg/assets/css/new.css">
+
+        	        	
+        		        		    <script src="http://kanal3.bg/assets/admin/js-form-builder/jquery-2.1.1.min.js"></script>
+
+        		        	
+        		        		    <script src="http://kanal3.bg/assets/admin/jquery-ui/jquery-ui.min.js"></script>
+
+        		        	
+		
+
+                	</head>
+	<body class="">
+
+        <!-- Facebook Popup Widget START --><!-- Brought to you by www.JasperRoberts.com - www.TheBlogWidgets.com -->
+        <div id='fanback'>
+            <div id='fan-exit'></div>
+            <div id='JasperRoberts'>
+                <div id='TheBlogWidgets'></div>
+                <div class='remove-borda'></div>
+                <div id="fanback_facebook"></div>
+            </div>
+        </div>
+        <!-- Facebook Popup Widget END. Brought to you by www.JasperRoberts.com - www.TheBlogWidgets.com -->
+	    <div style="width: 100%;height: auto;overflow-x: hidden;">
+	        <div id="fb-root"></div>
+
+	    <div class="site-bgrn">
+    <header class="w-container header">
+        <div data-collapse="medium" class="w-nav navbar" data-animation="default" data-duration="400" data-contain="1">
+             <div class="w-container">
+				<!--a class="snow" href="/"><img src="/assets/css/images/cristmas-head-BACK.png" alt="Канал 3"></a-->
+                <a class="w-nav-brand logo-holder" href="/">
+					<img src="/assets/css/images/logo.png">
+                    					<!--img class="venec" src="/assets/css/images/venec.png" alt="Канал 3 - Весела Коледа"-->
+				</a>
+                <div class="top-header-container">
+
+                                         <div id="weather" class="header-sinoptik">
+                    	<div class="sinoptik-temp-img">
+                            <img src="/assets/css/images/yahoo-weather/33n.png">
+                        </div>
+                        <div class="sinoptik-temp">8&#176;</div>
+                       <div class="sinoptik-logo"></div>
+                          <div class="sinoptik-title"><span class="mobile">София</span><span class="big">София, България</span></div>
+                    </div>
+					<div class="header-phones">
+						<label>телефон за зрителя:</label>
+						<ul>
+							<li>0889 888 801</li>
+						</ul>
+					</div>
+                    <div class="login"><a class="w-clearfix w-inline-block" href="#">
+                            <div class="short">Вход</div>
+                            <i class="fa fa-user">
+                                <img src="/assets/css/images/user.png" style="float: right;height: 20px;">
+                            </i>
+                        </a></div>
+                    <div class="header-search">
+                        <form class="w-clearfix" id="search_form" name="email-form" data-name="Email Form" action="/search" method="get">
+                            <a class="search-botton" href="#void" id="do_search">
+                            <i class="fa fa-search">
+                                <img src="/assets/css/images/search.png" style="height: 16px;margin-left: 4px;margin-top: 2px;">
+                            </i>
+                            </a>
+                            <input class="w-input search" id="search" name="search" data-name="Name 2" type="text" placeholder="Търсене..." maxlength="256" value="">
+
+                        </form>
+                        <script type="text/javascript">
+                            $(document).ready(function(){
+                                $('#search_form').submit(function(){
+                                    if($('#search').val() == ''){
+                                        alert('Въведете търсене');
+                                        return false;
+                                    }else{
+                                        return true;
+                                    }
+                                });
+
+                                $('#do_search').click(function(){
+                                    if($('#search').val() == ''){
+                                        alert('Въведете търсене');
+                                        return false;
+                                    }else{
+                                        $('#search_form').submit();
+                                    }
+                                });
+                            });
+                        </script>
+                    </div>
+
+                </div>
+                <nav class="bottom-header-container" role="navigation">
+                    <ul class="nav-menu">
+						<div class="menu-devider"></div>
+                                                                                
+                                                                   <li  >
+                                        <a href="/">Начало</a>
+                                        <div class="picker"><i class="fa fa-caret-up"></i></div>
+                                    </li>
+                                                                                           
+                                                                   <li  >
+                                        <a href="/news/bulgaria">България</a>
+                                        <div class="picker"><i class="fa fa-caret-up"></i></div>
+                                    </li>
+                                                                                           
+                                                                   <li  >
+                                        <a href="/news/world">Свят</a>
+                                        <div class="picker"><i class="fa fa-caret-up"></i></div>
+                                    </li>
+                                                                                           
+                                                                   <li  >
+                                        <a href="/news/sport">Спорт</a>
+                                        <div class="picker"><i class="fa fa-caret-up"></i></div>
+                                    </li>
+                                                                                           
+                                                                   <li  >
+                                        <a href="/news/lifestyle">Лайфстайл</a>
+                                        <div class="picker"><i class="fa fa-caret-up"></i></div>
+                                    </li>
+                                                                                           
+                                                                   <li  >
+                                        <a href="/video">Видео</a>
+                                        <div class="picker"><i class="fa fa-caret-up"></i></div>
+                                    </li>
+                                                                                           
+                                                                   <li  >
+                                        <a href="/news/comments">Интервюта и коментари</a>
+                                        <div class="picker"><i class="fa fa-caret-up"></i></div>
+                                    </li>
+                                                                                           
+                                                                   <li  >
+                                        <a href="/custom">Канал 3 TV</a>
+                                        <div class="picker"><i class="fa fa-caret-up"></i></div>
+                                    </li>
+                                                                                           
+                                                                </ul>
+                                </li>
+
+                                                                        </ul>
+                    <div class="mobile-menu-holder">
+                        <a href="#void" id="menu-icon">
+                            <i class="fa fa-bars">
+                                <img src="/assets/css/images/bars.png" style="height: 22px;margin-top: 4px;" width="35" height="35">
+                            </i>
+                        </a>
+                        <span class="red-top-triangle-icon menu-triangle-icon" ></span>
+                        <ul class="nav-menu mobile-menu">
+                                                                                                <li><a href="/">Начало</a></li>
+                                                                    <li><a href="/news/bulgaria">България</a></li>
+                                                                    <li><a href="/news/world">Свят</a></li>
+                                                                    <li><a href="/news/sport">Спорт</a></li>
+                                                                    <li><a href="/news/lifestyle">Лайфстайл</a></li>
+                                                                    <li><a href="/video">Видео</a></li>
+                                                                    <li><a href="/news/comments">Интервюта и коментари</a></li>
+                                                                    <li><a href="/custom">Канал 3 TV</a></li>
+                                                                                    </ul>
+                    </div>
+
+                    <script type="text/javascript">
+                        $(document).ready(function(){
+                            $('#show_sub_menu').click(function(){
+                                if($('span.menu-more').is(':visible')){
+                                    $('span.menu-more, .nav-sub-menu').hide(500);
+                                }else{
+                                    $('span.menu-more, .nav-sub-menu').show(500);
+                                }
+                                return false;
+                           });
+
+                           $('#menu-icon').click(function(){
+                                 if($('span.menu-triangle-icon').is(':visible')){
+                                    $('span.menu-triangle-icon, .mobile-menu').hide(500);
+                                }else{
+                                    $('span.menu-triangle-icon, .mobile-menu').show(500);
+                                }
+                                return false;
+                           });
+
+                        });
+                    </script>
+                </nav>
+            </div>
+            <div class="w-nav-overlay" data-wf-ignore=""></div>
+        </div>
+    </header>
+    <div class="w-container">
+             </div>
+
+    <div id="banner-zagorka" style="padding-left: 20px; padding-bottom: 20px;">
+        <script type='text/javascript'><!--//<![CDATA[
+            var m3_u = (location.protocol=='https:'?'https://ads.kanal3.bg/www/delivery/ajs.php':'http://ads.kanal3.bg/www/delivery/ajs.php');
+            var m3_r = Math.floor(Math.random()*99999999999);
+            if (!document.MAX_used) document.MAX_used = ',';
+            document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+            document.write ("?zoneid=4");
+            document.write ('&amp;cb=' + m3_r);
+            if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+            document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+            document.write ("&amp;loc=" + escape(window.location));
+            if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+            if (document.context) document.write ("&context=" + escape(document.context));
+            if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+            document.write ("'><\/scr"+"ipt>");
+            //]]>--></script><noscript><a href='http://ads.kanal3.bg/www/delivery/ck.php?n=aed94458&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://ads.kanal3.bg/www/delivery/avw.php?zoneid=4&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=aed94458' border='0' alt='' /></a></noscript>
+    </div>
+</div>
+        <div class="site-bgrn">
+            <link rel="stylesheet" type="text/css" href="/assets/css/css_min/colorbox.css" xmlns="http://www.w3.org/1999/html">
+<link rel="stylesheet" type="text/css" href="/assets/css/css_min/video-js.css">
+                                                    <div>
+	<div class="w-container">
+        <div class="w-row">
+            <div class="w-col w-col-8">
+            <div class="breadcrumb">
+                            <ul>
+                                <li>
+                                    <a href="/">Начало</a>
+                                    <i class="fa fa-caret-right">
+                                        <img src="/assets/css/images/caret-right.png" style="height: 9px;float: right;  margin-right: 5px;margin-left: -5px;margin-top: 6px;">
+                                    </i>
+                                </li><li>Грешка 404</li></ul></div>
+                <div>
+                                        <div itemscope itemtype=http://schema.org/Article>
+                        <div>
+                            <h1 class="news-title" itemprop="headline"> Грешка 404</h1>
+                        </div>
+
+                                                
+                        
+                        
+                        
+                        <article class="news-description" itemprop="description">
+                                                                                    <p>
+	Грешка 404<br />
+	<br />
+	Страницата не може да бъде намерена<br />
+	<br />
+	Възможни причини:</p>
+<ul style="margin-left: 40px;">
+	<li>
+		страницата физически не съществува на сървъра;</li>
+	<li>
+		използвали сте грешна връзка;</li>
+	<li>
+		въвели сте невалиден адрес или сте допуснали грешка при изписване;</li>
+	<li>
+		адреса на страницата е променен;</li>
+</ul>
+<p>
+	<br />
+	Какво можете да направите:</p>
+<ul style="margin-left: 40px;">
+	<li>
+		отидете на началната страница;</li>
+	<li>
+		използвайте основното меню на <a href="http://kanal3.bg/" tabindex="-1">http://kanal3.bg</a>;</li>
+</ul>
+                        </article>
+                        <div style="float: left; width: 100%;  margin-bottom: 15px">
+                                                        <div class="like-panel">
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <ul class="page-nav">
+                                                        </ul>
+
+                                    <script type="text/javascript">
+                        $('document').ready(function(){
+                            $('.big_images').each(function(){
+
+                                $(this).parent().show();
+                                var height = $(this).children('.content').height()*2.5;
+
+                                if( $(window).height() - height - 100 < $(this).children('img').height()){
+
+                                    var oldHeight = $(this).children('img').height();
+                                    var oldWidth = $(this).children('img').width();
+                                    $(this).children('img').height($(window).height() - height - 100);
+                                    $(this).children('img').width(oldWidth*(($(window).height() - height - 100)/oldHeight));
+                                }
+
+                                if( $(window).width() - 50 < $(this).children('img').width()){
+                                    var oldHeight = $(this).children('img').height();
+                                    var oldWidth = $(this).children('img').width();
+
+                                    $(this).children('img').width($(window).width() - 50);
+                                    $(this).children('img').height(oldHeight*(($(window).width() - 50)/oldWidth));
+                                }
+
+                                $(this).width($(this).children('img').width());
+                                $(this).height($(this).children('img').height() + $(this).children('.content').height() *2);
+
+                                $(this).parent().hide();
+
+                            });
+                            $(".photos").each(function(){
+                                if($(this).attr('rel') == 'videos'){
+                                  $('#'+$(this).attr('href').substr(1)).parent().show();
+                                     if( $('#'+$(this).attr('href').substr(1)).children('iframe').width() > $(window).width()){
+                                        var oldHeight = $('#'+$(this).attr('href').substr(1)).children('iframe').height();
+                                        var oldWidth = $('#'+$(this).attr('href').substr(1)).children('iframe').width();
+                                        $('#'+$(this).attr('href').substr(1)).children('iframe').width($(window).width() - 50);
+                                        $('#'+$(this).attr('href').substr(1)).children('iframe').height(oldHeight*(($(window).width() - 50)/oldWidth));
+                                    }
+                                   $(this).colorbox({
+                                         rel       :  'photos',
+                                         maxHeight :  $(window).height() ,
+                                         maxWidth  :  $(window).width() ,
+                                         minHeight :  '300px',
+                                         minWidth  :  '300px',
+                                         inline    : true ,
+                                         width     : $('#'+$(this).attr('href').substr(1)).children('iframe').width() + 50 ,
+                                         height    : $('#'+$(this).attr('href').substr(1)).children('iframe').height()+ $('#'+$(this).attr('href').substr(1) + ' .content').height()*3 + 100
+
+                                      });
+                                      $('#'+$(this).attr('href').substr(1)).parent().hide();
+                                }else if($(this).attr('rel') == 'videos_inline'){
+
+                                     $(this).colorbox({
+                                           rel       :  'photos',
+                                           maxHeight :  $(window).height() ,
+                                           maxWidth  :  $(window).width() ,
+                                           minHeight :  '300px',
+                                           minWidth  :  '300px',
+                                           inline    : true ,
+                                           width     : 700 ,
+                                           height    : 400
+
+                                        });
+                                        $('#'+$(this).attr('href').substr(1)).parent().hide();
+                                 }else{
+
+                                    $(this).colorbox({
+                                         rel       :  'photos',
+                                         maxHeight :  $(window).height() ,
+                                         maxWidth  :  $(window).width() ,
+                                         minHeight :  '300px',
+                                         minWidth  :  '300px',
+                                         inline    : true ,
+                                         width     : $('#'+$(this).attr('href').substr(1)).width() + 44,
+                                         height    : $('#'+$(this).attr('href').substr(1)).height() + 120
+                                      });
+                                }
+
+                            })
+                        });
+                    </script>
+            </div>
+                    <!---Dqsna 4ast--->
+            <div class="w-col w-col-4">
+                <div style="height: 250px; width: 300px; float: left;margin-bottom: 20px">
+                                <!--/*
+  *
+  * Revive Adserver Javascript Tag
+  * - Generated with Revive Adserver v3.1.0
+  *
+  */-->
+
+<!--/*
+  * The backup image section of this tag has been generated for use on a
+  * non-SSL page. If this tag is to be placed on an SSL page, change the
+  *   'http://ads.kanal3.bg/www/delivery/...'
+  * to
+  *   'https://ads.kanal3.bg/www/delivery/...'
+  *
+  * This noscript section of this tag only shows image banners. There
+  * is no width or height in these banners, so if you want these tags to
+  * allocate space for the ad before it shows, you will need to add this
+  * information to the <img> tag.
+  *
+  * If you do not want to deal with the intricities of the noscript
+  * section, delete the tag (from <noscript>... to </noscript>). On
+  * average, the noscript tag is called from less than 1% of internet
+  * users.
+  */-->
+
+<script type='text/javascript'><!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https://ads.kanal3.bg/www/delivery/ajs.php':'http://ads.kanal3.bg/www/delivery/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=1");
+   document.write ('&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script><noscript><a href='http://ads.kanal3.bg/www/delivery/ck.php?n=aa585245&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://ads.kanal3.bg/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=aa585245' border='0' alt='' /></a></noscript>
+                           </div>                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- K3_adSense -->
+                <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-5206528486975792"
+                data-ad-slot="8823896065"
+                data-ad-format="auto"></ins>
+                <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    var onloadCallback = function(){
+        grecaptcha.render(
+                'captch2',
+                {'sitekey' : '6LeQSBwTAAAAAAwjdWvPPx_LRbpkSGmE3njyM3vW'}
+        );
+//        grecaptcha.render(
+//                'captch1',
+//                {'sitekey' : '6LeQSBwTAAAAAAwjdWvPPx_LRbpkSGmE3njyM3vW'}
+//        );
+    };
+
+</script>
+    <script src="/assets/admin/js/ajaxForm.js"></script>
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"  defer></script>
+    <!--script defer src="https://platform.instagram.com/en_US/embeds.js"></script-->
+    <!--script defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script--->
+<script type="text/javascript" src="/assets/admin/js/jquery.colorbox.min.js"></script>
+<script type="text/javascript" src="/assets/js/video.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+            <div>
+    <div class="w-container">
+        <div class="banner-980-90"><!--/*
+  *
+  * Revive Adserver Javascript Tag
+  * - Generated with Revive Adserver v3.1.0
+  *
+  */-->
+
+<!--/*
+  * The backup image section of this tag has been generated for use on a
+  * non-SSL page. If this tag is to be placed on an SSL page, change the
+  *   'http://ads.kanal3.bg/www/delivery/...'
+  * to
+  *   'https://ads.kanal3.bg/www/delivery/...'
+  *
+  * This noscript section of this tag only shows image banners. There
+  * is no width or height in these banners, so if you want these tags to
+  * allocate space for the ad before it shows, you will need to add this
+  * information to the <img> tag.
+  *
+  * If you do not want to deal with the intricities of the noscript
+  * section, delete the tag (from <noscript>... to </noscript>). On
+  * average, the noscript tag is called from less than 1% of internet
+  * users.
+  */-->
+
+<script type='text/javascript'><!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https://ads.kanal3.bg/www/delivery/ajs.php':'http://ads.kanal3.bg/www/delivery/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=2");
+   document.write ('&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script><noscript><a href='http://ads.kanal3.bg/www/delivery/ck.php?n=a0060a39&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://ads.kanal3.bg/www/delivery/avw.php?zoneid=2&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a0060a39' border='0' alt='' /></a></noscript></div>
+    </div>
+</div>
+<div>
+    <div class="w-container">
+        <div class="w-clearfix top-footer">
+                                                <div class="footer-item">
+                        <a class="footer-item-title" href="/news/bulgaria">България</a>
+                                                    <ul class="footer-item-list">
+                                                            <li><a class="footer-link" href="/news/bulgaria/politics">Политика</a>
+                                                                    </li>
+                                                            <li><a class="footer-link" href="/news/bulgaria/economy">Икономика</a>
+                                                                    </li>
+                                                            <li><a class="footer-link" href="/news/bulgaria/society">Общество</a>
+                                                                    </li>
+                                                            <li><a class="footer-link" href="/news/bulgaria/crime">Крими</a>
+                                                                    </li>
+                                                            <li><a class="footer-link" href="/news/bulgaria/zakonired">Закон и ред</a>
+                                                                    </li>
+                                                            <li><a class="footer-link" href="/news/bulgaria/zdraveopazvane">Здравеопазване</a>
+                                                                    </li>
+                                                            <li><a class="footer-link" href="/news/bulgaria/parlamentarni-novini">Парламентарни новини</a>
+                                                                    </li>
+                                                            <li><a class="footer-link" href="/news/bulgaria/prezident2016">Президентски избори 2016</a>
+                                                                    </li>
+                                                        </ul>
+                                            </div>
+                                    <div class="footer-item">
+                        <a class="footer-item-title" href="/news/world">Свят</a>
+                                                    <ul class="footer-item-list">
+                                                            <li><a class="footer-link" href="/news/world/europe">Европа</a>
+                                                                    </li>
+                                                            <li><a class="footer-link" href="/news/world/USA">Америка</a>
+                                                                    </li>
+                                                            <li><a class="footer-link" href="/news/world/middleeast">Близък изток</a>
+                                                                    </li>
+                                                            <li><a class="footer-link" href="/news/world/russia">Русия</a>
+                                                                    </li>
+                                                            <li><a class="footer-link" href="/news/world/azia">Азия</a>
+                                                                    </li>
+                                                        </ul>
+                                            </div>
+                                    <div class="footer-item">
+                        <a class="footer-item-title" href="/news/sport">Спорт</a>
+                                                    <ul class="footer-item-list">
+                                                            <li><a class="footer-link" href="/news/sport/other_sports">Други спортове</a>
+                                                                    </li>
+                                                            <li><a class="footer-link" href="/news/sport/Winter_sports">Зимни спортове</a>
+                                                                    </li>
+                                                            <li><a class="footer-link" href="/news/sport/volleyball">Волейбол</a>
+                                                                    </li>
+                                                            <li><a class="footer-link" href="/news/sport/basketball">Баскетбол</a>
+                                                                    </li>
+                                                            <li><a class="footer-link" href="/news/sport/tennis">Тенис</a>
+                                                                    </li>
+                                                            <li><a class="footer-link" href="/news/sport/football">Футбол</a>
+                                                                    </li>
+                                                        </ul>
+                                            </div>
+                                    <div class="footer-item">
+                        <a class="footer-item-title" href="/news/lifestyle">Лайфстайл</a>
+                                                    <ul class="footer-item-list">
+                                                            <li><a class="footer-link" href="/news/lifestyle/lubopitno">Любопитно</a>
+                                                                    </li>
+                                                            <li><a class="footer-link" href="/news/lifestyle/moda">Мода</a>
+                                                                    </li>
+                                                            <li><a class="footer-link" href="/news/lifestyle/zvezdi">Звезди</a>
+                                                                    </li>
+                                                            <li><a class="footer-link" href="/news/lifestyle/fitnes">Фитнес</a>
+                                                                    </li>
+                                                            <li><a class="footer-link" href="/news/lifestyle/zdravoslovno-hranene">Здравословно хранене</a>
+                                                                    </li>
+                                                        </ul>
+                                            </div>
+                                    <div class="footer-item">
+                        <a class="footer-item-title" href="/video">Видео</a>
+                                            </div>
+                                    <div class="footer-item">
+                        <a class="footer-item-title" href="/news/comments">Интервюта и коментари</a>
+                                                    <ul class="footer-item-list">
+                                                            <li><a class="footer-link" href="/news/comments/culture">Култура</a>
+                                                                    </li>
+                                                        </ul>
+                                            </div>
+                                    <div class="footer-item">
+                        <a class="footer-item-title" href="/custom">Канал 3 TV</a>
+                                                    <ul class="footer-item-list">
+                                                            <li><a class="footer-link" href="/live">Гледай на живо</a>
+                                                                    </li>
+                                                            <li><a class="footer-link" href="/broadcast">Предавания</a>
+                                                                    </li>
+                                                            <li><a class="footer-link" href="/face">Лицата на Канал 3</a>
+                                                                    </li>
+                                                            <li><a class="footer-link" href="/program">Програма</a>
+                                                                    </li>
+                                                        </ul>
+                                            </div>
+                                    <div class="footer-item">
+                        <a class="footer-item-title" href="/about_us">За нас</a>
+                                                    <ul class="footer-item-list">
+                                                            <li><a class="footer-link" href="/about_us/contacts">Контакти</a>
+                                                                    </li>
+                                                            <li><a class="footer-link" href="/about_us/advertising">Реклама</a>
+                                                                    </li>
+                                                        </ul>
+                                            </div>
+                                    <div class="footer-item">
+                        <a class="footer-item-title" href="/photo">Галерия</a>
+                                            </div>
+                                    <div class="footer-item">
+                        <a class="footer-item-title" href="/reporter">Стани репортер</a>
+                                            </div>
+                                    <div class="footer-item">
+                        <a class="footer-item-title" href="/news?onHomepage=1">Горещи теми</a>
+                                            </div>
+                                    </div>
+        <div class="w-clearfix bottom-footer">
+            <img class="footer-logo" src="/assets/css/images/logo.png" width="40">
+            <div class="copyright">© Copyright 2015 www.kanal3.bg. Всички права запазени.</div>
+        </div>
+
+    </div>
+</div>
+
+        </div>
+		                    
+        </div>
+
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-44869902-1', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+        <!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter31835176 = new Ya.Metrika({ id:31835176, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/31835176" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+
+        <script defer="" type="text/javascript" src="/assets/js/facebook_stuff.js"></script>
+        <script defer type="text/javascript" src="/assets/js/facebook-jssdk.js"></script>
+        
+                            <script src="http://kanal3.bg/assets/js/modernizr.js"></script>
+
+                    
+                            <script src="http://kanal3.bg/assets/admin/js-form-builder/bootstrap-3.3.0.min.js"></script>
+
+                    
+                            <script src="http://kanal3.bg/assets/admin/js/jquery-ui/js/jquery-ui-1.10.0.custom.min.js"></script>
+
+                    
+                            <script src="http://kanal3.bg/assets/js/functions.js"></script>
+
+                    
+                            <script src="http://kanal3.bg/assets/admin/js/ajaxForm.js"></script>
+
+                    
+        <script type="text/javascript">
+            $(document).ready(function(){
+
+                if (!Modernizr.fontface) {
+                    $('body').addClass('not-support-font-face')
+                }else{
+                    var styles= '<link rel="stylesheet" href="/assets/css/font-awesome/css/font-awesome.min.css" type="text/css"/>' +
+                                '<link rel="stylesheet" href="/assets/css/zodiak/style.css" type="text/css"/>';
+                    $('head').append(styles);
+                    $('i img').remove();
+                }
+
+
+
+                //languages
+
+                $( document ).ajaxStart(function() {
+                    showAjaxLoading();
+                });
+
+                $( document ).ajaxStop(function() {
+                    hideAjaxLoading();
+                });
+
+                $('a[href^="/news"]').click(function(){
+
+                    if( $(this).attr('rel') != 'prev' && $(this).attr('rel') != 'next'){
+
+                        var params = {
+                            'urlString' : $(this).attr('href')
+                        };
+                         if($(this).attr('rel') == 'author'){
+                            params['custom'] = 'author';
+                         }
+
+                         $.ajax({
+                                method: "POST",
+                                url: '/saveUrl',
+                                data: params,
+                                global: false,
+                                async:false
+                            }).done(function (data) {
+                        });
+                    }
+
+                    });
+
+            });
+
+            // facebook popup box
+            //<![CDATA[
+//            jQuery.cookie = function (key, value, options) {
+//                // key and at least value given, set cookie...
+//                if (arguments.length > 1 && String(value) !== "[object Object]") {
+//                    options = jQuery.extend({}, options);
+//                    if (value === null || value === undefined) {
+//                        options.expires = -1;
+//                    }
+//                    if (typeof options.expires === 'number') {
+//                        var days = options.expires, t = options.expires = new Date();
+//                        t.setDate(t.getDate() + days);
+//                    }
+//                    value = String(value);
+//                    return (document.cookie = [
+//                        encodeURIComponent(key), '=',
+//                        options.raw ? value : encodeURIComponent(value),
+//                        options.expires ? '; expires=' + options.expires.toUTCString() : '', // use expires attribute, max-age is not supported by IE
+//                        options.path ? '; path=' + options.path : '',
+//                        options.domain ? '; domain=' + options.domain : '',
+//                        options.secure ? '; secure' : ''
+//                    ].join(''));
+//                }
+//                // key and possibly options given, get cookie...
+//                options = value || {};
+//                var result, decode = options.raw ? function (s) { return s; } : decodeURIComponent;
+//                return (result = new RegExp('(?:^|; )' + encodeURIComponent(key) + '=([^;]*)').exec(document.cookie)) ? decode(result[1]) : null;
+//            };
+//            jQuery(document).ready(function($){
+//                if($.cookie('popup_user_login') != 'yes'){
+//                    $('#fanback').delay(10000).fadeIn('medium');
+//                    $('#TheBlogWidgets, #fan-exit').click(function(){
+//                        $('#fanback').stop().fadeOut('medium');
+//                    });
+//                }
+//
+//                $.cookie('popup_user_login', 'yes', { path: '/', expires: 1 });
+//            });
+
+
+            //]]>
+            </script>
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- wewfw -->
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:336px;height:10px"
+                 data-ad-client="ca-pub-5206528486975792"
+                 data-ad-slot="8618982868"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+	</body>
+</html>ݱ�S��      W�`bW�`c<��%       W    :http://kanal3.bg/assets/css/css_min/font-awesome/fonts/fontawesome-webfont.ttf?v=4.3.0 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Server: nginx
+Content-Type: text/html; charset=UTF-8
+Cache-Control: no-cache
+Date: Wed, 05 Oct 2016 20:17:18 GMT
+ original-response-headers Server: nginx
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: no-cache
+Date: Wed, 05 Oct 2016 20:17:18 GMT
+Set-Cookie: laravel_session=eyJpdiI6Im9uNzNSV1ZBQlRLSExjTUxNc3k4Unc9PSIsInZhbHVlIjoiT3dQdTJIck1mcEhoUG05VnZ2ZmtsTHJDdXk0MW9NV216ZGVabFU3ZUF6TTJxbFBYUGhINHI5WEJmZlRiWFNyU1VReFg0RXhSdFYzMVhVanFYRDRnNGc9PSIsIm1hYyI6Ijc4YjI3N2Y5N2M1MjA1M2MyNGIyODJmZjU5NmY5MTBhYTM0YzQzNjljM2MxNzI0ZGMzYjBhM2YxM2QwODU1YzYifQ%3D%3D; expires=Wed, 05-Oct-2016 22:17:18 GMT; Max-Age=7200; path=/; httponly
+ uncompressed-len 0   �t
